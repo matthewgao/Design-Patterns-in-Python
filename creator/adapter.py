@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 # coding=utf-8
 
-
+# Assuming the Target is the class which come from other Lib or package,
+# so you don't have the ability to change it, but the interface which Target
+# given is insufficent for you, so you need a wrapper(adapter)
 class Target:
     i = 1
     def interface(self):
